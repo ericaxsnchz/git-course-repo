@@ -49,3 +49,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+    
+  remote_theme: pages-themes/minimal@v0.2.0
+  plugins: -jekyll-remote-minimal
